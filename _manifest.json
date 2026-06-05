@@ -1,5 +1,6 @@
 {
   "languages": [
+    {"tag": "en", "nativeName": "English", "englishName": "English"},
     {"tag": "pt-BR", "nativeName": "Português (Brasil)", "englishName": "Portuguese (Brazil)"},
     {"tag": "ru", "nativeName": "Русский", "englishName": "Russian"},
     {"tag": "de", "nativeName": "Deutsch", "englishName": "German"},
@@ -18,6 +19,12 @@
     {"tag": "sv", "nativeName": "Svenska", "englishName": "Swedish"},
     {"tag": "da", "nativeName": "Dansk", "englishName": "Danish"},
     {"tag": "no", "nativeName": "Norsk", "englishName": "Norwegian"},
-    {"tag": "fi", "nativeName": "Suomi", "englishName": "Finnish"}
+    {"tag": "fi", "nativeName": "Suomi", "englishName": "Finnish"},
+    {"tag": "hr", "nativeName": "Hrvatski", "englishName": "Croatian"},
+    {"tag": "vi", "nativeName": "Tiếng Việt", "englishName": "Vietnamese"},
+    {"tag": "id", "nativeName": "Bahasa Indonesia", "englishName": "Indonesian"},
+    {"tag": "th", "nativeName": "ไทย", "englishName": "Thai"},
+    {"tag": "pt-PT", "nativeName": "Português (Portugal)", "englishName": "Portuguese (Portugal)"},
+    {"tag": "es-419", "nativeName": "Español (Latinoamérica)", "englishName": "Spanish (Latin America)"}
   ]
 }
