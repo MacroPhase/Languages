@@ -1,0 +1,23 @@
+{
+  "languages": [
+    {"tag": "pt-BR", "nativeName": "Português (Brasil)", "englishName": "Portuguese (Brazil)"},
+    {"tag": "ru", "nativeName": "Русский", "englishName": "Russian"},
+    {"tag": "de", "nativeName": "Deutsch", "englishName": "German"},
+    {"tag": "fr", "nativeName": "Français", "englishName": "French"},
+    {"tag": "es", "nativeName": "Español", "englishName": "Spanish"},
+    {"tag": "it", "nativeName": "Italiano", "englishName": "Italian"},
+    {"tag": "ja", "nativeName": "日本語", "englishName": "Japanese"},
+    {"tag": "ko", "nativeName": "한국어", "englishName": "Korean"},
+    {"tag": "zh-Hans", "nativeName": "简体中文", "englishName": "Chinese (Simplified)"},
+    {"tag": "zh-Hant", "nativeName": "繁體中文", "englishName": "Chinese (Traditional)"},
+    {"tag": "pl", "nativeName": "Polski", "englishName": "Polish"},
+    {"tag": "tr", "nativeName": "Türkçe", "englishName": "Turkish"},
+    {"tag": "ar", "nativeName": "العربية", "englishName": "Arabic"},
+    {"tag": "hi", "nativeName": "हिन्दी", "englishName": "Hindi"},
+    {"tag": "nl", "nativeName": "Nederlands", "englishName": "Dutch"},
+    {"tag": "sv", "nativeName": "Svenska", "englishName": "Swedish"},
+    {"tag": "da", "nativeName": "Dansk", "englishName": "Danish"},
+    {"tag": "no", "nativeName": "Norsk", "englishName": "Norwegian"},
+    {"tag": "fi", "nativeName": "Suomi", "englishName": "Finnish"}
+  ]
+}
