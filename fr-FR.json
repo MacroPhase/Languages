@@ -38,7 +38,7 @@
   "aicoach_microphone_permission_is_needed_for_voice_input": "L'accès au microphone est requis pour la saisie vocale",
   "coach_language_directive_fmt": "IMPORTANT : La langue préférée de l'utilisateur est %1$s. Répondez dans cette langue pour tout texte libre — salutations, questions, recommandations, analyses, résumés. Les VALEURS des paramètres d'outils doivent rester dans la langue d'origine utilisée par l'utilisateur (ne traduisez pas son entrée en anglais). Les CLÉS des paramètres d'outils internes ne changent jamais.",
   "coach_suggestion_afternoon_protein_snack": "🧂 Suggère une collation riche en protéines pour l'après-midi",
-  "coach_suggestion_afternoon_remaining_cal": "📈 Combien de calories me reste-t-t-il ?",
+  "coach_suggestion_afternoon_remaining_cal": "📈 Combien de calories me reste-t-il ?",
   "coach_suggestion_afternoon_snack": "🍪 Quelle collation correspondrait à mes macros ?",
   "coach_suggestion_almost_target": "🎯 Bientôt à mon objectif calorique — que puis-je encore manger ?",
   "coach_suggestion_checkin": "✅ C'est l'heure de ton bilan hebdomadaire",
