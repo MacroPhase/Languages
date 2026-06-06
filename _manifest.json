@@ -11,6 +11,7 @@
     { "tag": "pl", "nativeName": "Polski", "englishName": "Polish" },
     { "tag": "tr", "nativeName": "Türkçe", "englishName": "Turkish" },
     { "tag": "ko", "nativeName": "한국어", "englishName": "Korean" },
-    { "tag": "zh-Hans", "nativeName": "简体中文", "englishName": "Chinese (Simplified)" }
+    { "tag": "zh-Hans", "nativeName": "简体中文", "englishName": "Chinese (Simplified)" },
+    { "tag": "fr-FR", "nativeName": "Français", "englishName": "French" }
   ]
 }
