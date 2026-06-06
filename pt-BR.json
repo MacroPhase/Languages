@@ -25,6 +25,7 @@
 
   "nav_dashboard": "Painel",
   "nav_food_log": "Registro Alimentar",
+  "nav_food_log_short": "Diário",
   "nav_more": "Mais",
   "nav_strategy": "Estratégia",
 
@@ -146,6 +147,16 @@
   "dashboard_settings": "Configurações",
   "dashboard_weighin": "Pesagem",
   "dashboard_weight_trend": "Tendência de Peso",
+  "dashboard_title": "Painel",
+  "dashboard_section_weekly": "Nutrição Semanal",
+  "dashboard_section_daily": "Nutrição Diária",
+  "dashboard_section_energy_balance": "Balanço Energético",
+  "dashboard_toggle_consumed": "Consumido",
+  "dashboard_toggle_remaining": "Restante",
+  "dashboard_action_see_all": "Ver Tudo",
+  "dashboard_action_show_less": "Ver Menos",
+  "dashboard_search_placeholder": "Pesquisar um alimento",
+  "dashboard_weekly_of_target_fmt": "de %1$d",
   "dashboardtilemodels_ai_insights": "Insights de IA",
   "dashboardtilemodels_daily_nutrition": "Nutrição Diária",
   "dashboardtilemodels_habits": "Hábitos",
@@ -229,6 +240,10 @@
   "timelinehourmacrorow_c": "C",
   "timelinehourmacrorow_f": "G",
   "timelinehourmacrorow_p": "P",
+  "food_log_tab_scan": "Escanear",
+  "food_log_tab_search": "Pesquisar",
+  "food_log_tab_ai": "IA",
+  "food_log_tab_quick_add": "Adição Rápida",
 
   "customfoods_create": "Criar",
   "customfoods_create_add": "Criar e Adicionar",
@@ -642,5 +657,17 @@
   "widgetconfigactivity_focus_nutrient": "Nutriente em Foco",
   "widgetconfigactivity_save_widget": "Salvar Widget",
 
-  "agentconversationdrawer_delete_chat": "Excluir conversa?"
+  "agentconversationdrawer_delete_chat": "Excluir conversa?",
+
+  "picks_section_fmt": "%1$02d:00 Sugestões",
+  "picks_no_picks": "Nenhuma sugestão ainda",
+  "picks_empty_subtitle": "Registre algumas refeições neste horário para ver sugestões aqui.",
+
+  "day_short_mon": "S",
+  "day_short_tue": "T",
+  "day_short_wed": "Q",
+  "day_short_thu": "Q",
+  "day_short_fri": "S",
+  "day_short_sat": "S",
+  "day_short_sun": "D"
 }
