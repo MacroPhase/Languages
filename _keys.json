@@ -43,7 +43,7 @@
   "mainviewmodel_manual_program_update": "Manual program update",
   "mainviewmodel_started_using_macrophase": "Started using MacroPhase",
   "mainviewmodel_steptitle_denied": "$stepTitle (denied)",
-  "mainviewmodel_steptitle_failed": "$stepTitle (failed)"
+  "mainviewmodel_steptitle_failed": "$stepTitle (failed)",
 
   // --- Common ---
   "common_add": "Add",
@@ -61,7 +61,7 @@
   "common_save": "Save",
   "common_search": "Search",
   "common_select": "Select",
-  "common_today": "Today"
+  "common_today": "Today",
 
   // --- Navigation ---
   "nav_dashboard": "Dashboard",
@@ -71,7 +71,7 @@
   // in pt-BR breaks the 4-tab nav layout — the word splits/wraps).
   "nav_food_log_short": "Log",
   "nav_more": "More",
-  "nav_strategy": "Strategy"
+  "nav_strategy": "Strategy",
 
   // --- AI Coach ---
   "ai_coach_name": "Phase",
@@ -114,7 +114,7 @@
   "coach_suggestion_quick_protein": "💪 What's a quick way to hit my protein goal?",
   "coach_suggestion_start_logging": "📝 Let's start logging today",
   "coach_suggestion_stay_full": "🤠 How can I stay full on fewer calories?",
-  "coach_suggestion_sustainable_rate": "📈 Is my rate of loss sustainable?"
+  "coach_suggestion_sustainable_rate": "📈 Is my rate of loss sustainable?",
 
   // --- AI Settings ---
   "aisettings_ai_food_scanner": "AI Food Scanner",
@@ -146,7 +146,7 @@
   "aisettings_style": "Style",
   "aisettings_text_tools": "Text + tools",
   "aisettings_unload_model": "Unload Model",
-  "aisettings_vision": "Vision"
+  "aisettings_vision": "Vision",
 
   // --- Agent ---
   "agentcomposer_camera": "Camera",
@@ -172,7 +172,7 @@
   "agenttoolcard_u2713_log": "\\u2713 Log",
   "agenttoolcard_ud83dudcd6": "\\uD83D\\uDCD6",
   "agenttoolcard_valueroundtointg": "${value.roundToInt()}g",
-  "agenttoolcard_weightkgkg_on_date": "${weightKg}kg on $date"
+  "agenttoolcard_weightkgkg_on_date": "${weightKg}kg on $date",
 
   // --- Dashboard ---
   "dashboard_body_fat": "Body Fat",
@@ -211,7 +211,7 @@
   "dashboardtilemodels_insights_analytics": "Insights & Analytics",
   "dashboardtilemodels_nutrition": "Nutrition",
   "dashboardtilemodels_primary_focus": "Primary Focus",
-  "dashboardtilemodels_weekly_nutrition": "Weekly Nutrition"
+  "dashboardtilemodels_weekly_nutrition": "Weekly Nutrition",
 
   // --- Picks (time-based food suggestions) ---
   "picks_section_fmt": "%1$02d:00 Picks",
@@ -297,7 +297,7 @@
   "food_log_tab_scan": "Scan",
   "food_log_tab_search": "Search",
   "food_log_tab_ai": "AI",
-  "food_log_tab_quick_add": "Quick Add"
+  "food_log_tab_quick_add": "Quick Add",
 
   // --- Custom Foods ---
   "customfoods_create": "Create",
@@ -318,7 +318,7 @@
   "customfoods_scan": "Scan",
   "customfoods_serving_weight": "Serving weight",
   "customfoods_unit": "Unit",
-  "customfoods_vitamins": "Vitamins"
+  "customfoods_vitamins": "Vitamins",
 
   // --- Recipes ---
   "recipeeditor_c100g": "C/100g",
@@ -331,7 +331,7 @@
   "recipeeditor_recipe_name": "Recipe Name",
   "recipeeditor_search_food_to_add": "Search food to add...",
   "recipeeditor_servings": "Servings",
-  "recipeeditor_u03a3_sum_weight": "\\u03A3 Sum Weight"
+  "recipeeditor_u03a3_sum_weight": "\\u03A3 Sum Weight",
 
   // --- Food Databases ---
   "fooddatabase_clear_all": "Clear all",
@@ -341,7 +341,7 @@
   "fooddatabase_select_all": "Select all",
   "fooddatabase_u2713": "\\u2713",
   "fooddatabase_u2715": "\\u2715",
-  "fooddatabase_vdbversion": "v${db.version}"
+  "fooddatabase_vdbversion": "v${db.version}",
 
   // --- Macro Glance ---
   "macroglancewidgets_carb": "Carb",
@@ -349,7 +349,7 @@
   "macroglancewidgets_consumedfattointg": "${consumedFat.toInt()}g",
   "macroglancewidgets_consumedprotointg": "${consumedPro.toInt()}g",
   "macroglancewidgets_fat": "Fat",
-  "macroglancewidgets_prot": "Prot"
+  "macroglancewidgets_prot": "Prot",
 
   // --- Onboarding ---
   "onboarding_activate_your_ai_coach": "Activate Your AI Coach",
@@ -397,7 +397,7 @@
   "onboarding_workoutsweek": "Workouts/Week",
   "onboarding_xlsx_export": "XLSX export",
   "onboarding_your_blueprint": "Your Blueprint",
-  "onboarding_zip": "ZIP"
+  "onboarding_zip": "ZIP",
 
   // --- Settings ---
   "appbehaviorsettings_ai_coach_floating_button": "AI Coach Floating Button",
@@ -501,7 +501,7 @@
   "settings_update_close": "Close",
   "settings_update_failed": "Check failed",
   "settings_update_up_to_date": "Up to date",
-  "settings_view_on_github": "View on GitHub"
+  "settings_view_on_github": "View on GitHub",
 
   // --- Notifications ---
   "evening_reminder_empty": "It's evening and you haven't logged any food yet. Don't forget to track your day!",
@@ -528,7 +528,7 @@
   "weekly_summary_fallback": "Your weekly summary is ready. Open Phase to view your latest weight trend and nutrition insights.",
   "weekly_summary_fmt": "Weekly trend change: %1$s%2$s%3$s. Check your updated strategy to see your new targets.",
   "weekly_summary_trend_neg_fmt": "%1$.1f %2$s",
-  "weekly_summary_trend_pos_fmt": "+%1$.1f %2$s"
+  "weekly_summary_trend_pos_fmt": "+%1$.1f %2$s",
 
   // --- Check-In ---
   "checkin_accept_recommendation": "Accept Recommendation",
@@ -539,7 +539,7 @@
   "checkin_daily_calories_kcal": "Daily Calories (kcal)",
   "checkin_estimated_tdee": "Estimated TDEE",
   "checkin_tdeetoint_kcalday": "${tdee.toInt()} kcal/day",
-  "checkin_trend_weight_change": "Trend Weight Change"
+  "checkin_trend_weight_change": "Trend Weight Change",
 
   // --- Memory ---
   "memory_clear_all": "Clear All",
@@ -550,25 +550,25 @@
   "memory_search_memories": "Search memories...",
   "memory_this_will_permanently_delete_all_stored_memories_your_coach_will_start_fresh": "This will permanently delete all stored memories. Your coach will start fresh.",
   "memory_your_coach_remembers_what_matters": "Your coach remembers what matters",
-  "memory_your_coach_will_build_memories_as_you_interact": "Your coach will build memories as you interact"
+  "memory_your_coach_will_build_memories_as_you_interact": "Your coach will build memories as you interact",
 
   // --- Body Metrics ---
   "bodymetrics_body_fat": "Body Fat %",
   "bodymetrics_measurements_cm": "Measurements (cm)",
   "bodymetrics_note": "Note",
   "bodymetrics_optional_note": "Optional note...",
-  "bodymetrics_progress_photos": "Progress Photos"
+  "bodymetrics_progress_photos": "Progress Photos",
 
   // --- Weight Log ---
   "weightlog_optional_note_eg_postworkout": "Optional Note (e.g. post-workout)",
   "weightlog_save_weight": "Save Weight",
-  "weightlog_weight_scaleunituppercase": "Weight (${scaleUnit.uppercase()})"
+  "weightlog_weight_scaleunituppercase": "Weight (${scaleUnit.uppercase()})",
 
   // --- Photos ---
   "photocomparison_compare_photos": "Compare Photos",
   "photocomparison_no_photo": "No Photo",
   "photocomparison_reset_zoom": "Reset Zoom",
-  "photocomparison_select_a_date_above": "Select a date above"
+  "photocomparison_select_a_date_above": "Select a date above",
 
   // --- Progress ---
   "progress_3day": "3-day",
@@ -577,14 +577,14 @@
   "progress_holding": "Holding",
   "progress_scale_weight": "Scale Weight",
   "progress_trend_weight": "Trend Weight",
-  "progress_updating": "Updating"
+  "progress_updating": "Updating",
 
   // --- Strategy ---
   "strategymonitor_coverage": "Coverage",
   "strategymonitor_last_7_days": "Last 7 Days",
   "updatestrategy_carbs": "Carbs",
   "updatestrategy_fat": "Fat",
-  "updatestrategy_protein": "Protein"
+  "updatestrategy_protein": "Protein",
 
   // --- Insights ---
   "insightengine_excellent_consistency": "Excellent Consistency",
@@ -592,15 +592,15 @@
   "insightengine_logging_gap": "Logging Gap",
   "insightengine_protein_trending_low": "Protein Trending Low",
   "insightengine_trend_is_direction": "Trend Is $direction",
-  "insightengine_weight_is_stable": "Weight Is Stable"
+  "insightengine_weight_is_stable": "Weight Is Stable",
 
   // --- Charts ---
   "customcharts_no_expenditure_data_to_plot_yet": "No expenditure data to plot yet.",
-  "customcharts_no_weight_records_to_plot_yet": "No weight records to plot yet."
+  "customcharts_no_weight_records_to_plot_yet": "No weight records to plot yet.",
 
   // --- Micros ---
   "micros_nutrients": "Nutrients",
-  "micros_u2715": "\\u2715"
+  "micros_u2715": "\\u2715",
 
   // --- Nutrients ---
   "nutrientdetail_average": "Average",
@@ -651,10 +651,10 @@
   "nutrientregistry_vitamin_e": "Vitamin E",
   "nutrientregistry_vitamin_k": "Vitamin K",
   "nutrientregistry_water": "Water",
-  "nutrientregistry_zinc": "Zinc"
+  "nutrientregistry_zinc": "Zinc",
 
   // --- Library ---
-  "libraryfiltersheet_reset": "Reset"
+  "libraryfiltersheet_reset": "Reset",
 
   // --- Quick Actions ---
   "quick_action_add_food": "Add Food",
@@ -677,7 +677,7 @@
   "quick_action_quick_add": "Quick Add",
   "quick_action_recipe": "Recipe",
   "quick_action_scan": "AI Scan",
-  "quick_action_strategy": "Strategy"
+  "quick_action_strategy": "Strategy",
 
   // --- Tool Summaries ---
   "tool_summary_activity_days": "✓ Retrieved %1$d-day activity summary from Health Connect",
@@ -716,28 +716,28 @@
   "tool_summary_updated_calorie_target": "✓ Updated calorie target to %1$d kcal",
   "tool_summary_updated_grams_fmt": "✓ Updated %1$s from %2$dg to %3$dg",
   "tool_summary_updated_macros_fmt": "✓ Updated macro targets to %1$.0f%% P / %2$.0f%% C / %3$.0f%% F (%4$dg protein, %5$dg carbs, %6$dg fat per day)",
-  "tool_summary_weight_trend_days": "✓ Retrieved weight trend for past %1$d days"
+  "tool_summary_weight_trend_days": "✓ Retrieved weight trend for past %1$d days",
 
   // --- Dialogs ---
   "emojipickerdialog_paste_custom_emoji": "Paste custom emoji...",
   "emojipickerdialog_select_emoji": "Select Emoji",
   "emojipickerdialog_use_custom_emoji_customemojiinput": "Use Custom Emoji: $customEmojiInput",
-  "multidatepickerdialog_copy_to_selecteddatessize_dates": "Copy to ${selectedDates.size} date(s)"
+  "multidatepickerdialog_copy_to_selecteddatessize_dates": "Copy to ${selectedDates.size} date(s)",
 
   // --- Language ---
-  "languagepicker_langenglishname_langcoveragepct": "${lang.englishName}  ${lang.coveragePct}%"
+  "languagepicker_langenglishname_langcoveragepct": "${lang.englishName}  ${lang.coveragePct}%",
 
   // --- Model ---
-  "modelpickerrow_eg_gpt5mini_or_googlegemini25flash": "e.g. gpt-5-mini or google/gemini-2.5-flash"
+  "modelpickerrow_eg_gpt5mini_or_googlegemini25flash": "e.g. gpt-5-mini or google/gemini-2.5-flash",
 
   // --- Widget ---
   "widgetconfigactivity_accent_color": "Accent Color",
   "widgetconfigactivity_appearance": "Appearance",
   "widgetconfigactivity_focus_nutrient": "Focus Nutrient",
-  "widgetconfigactivity_save_widget": "Save Widget"
+  "widgetconfigactivity_save_widget": "Save Widget",
 
   // --- Other ---
-  "agentconversationdrawer_delete_chat": "Delete chat?"
+  "agentconversationdrawer_delete_chat": "Delete chat?",
 
   // --- Day Labels (short day-of-week abbreviations) ---
   "day_short_mon": "M",
