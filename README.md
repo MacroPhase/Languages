@@ -61,3 +61,4 @@ Every language needs an entry:
 ## _keys.json
 
 This is the English source of truth. Every translatable string in the app lives here. If a key isn't in this file, it doesn't exist. If a key is in this file but not in your language pack, the app shows the English version.
+If a new update is made, please wait for the developer to update the keys.json. After that, if you want to update your language to the new keys, you can use the app's "Copy missing keys" to get the ones needed, translate them, and open a PR as described.
