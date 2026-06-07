@@ -9,7 +9,7 @@ Translations live at [github.com/MacroPhase/Languages](https://github.com/MacroP
 3. Add your language to `_manifest.json`
 4. Open a PR on [github.com/MacroPhase/Languages](https://github.com/MacroPhase/Languages)
 
-Easiest way: paste the JSON into an AI — *"Translate these fitness app strings to [language], keep placeholders, return valid JSON."* Review, fix anything that sounds off, PR.
+Easiest way: paste the JSON into an AI — *"Translate these fitness app strings to [language], return valid JSON."* Keep the JSON comments in for guidance to the AI and easier understanding. Review, fix anything that sounds off, PR.
 
 ## Quick start — Update existing language
 
