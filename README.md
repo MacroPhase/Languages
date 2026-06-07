@@ -1,64 +1,50 @@
-# MacroPhase Languages
+# MacroPhase Language Packs
 
-Community-maintained translations for [MacroPhase](https://github.com/laringologija/OpenFactor).
+Translations live at [github.com/MacroPhase/Languages](https://github.com/MacroPhase/Languages). The app fetches them at runtime — PR merged = users get it, no app update needed.
 
-The app fetches language packs from this repo at runtime. No app update needed — translations ship the moment a PR is merged.
+## Quick start — New language
 
-## Adding a language
-
-1. Fork this repo
-2. Create `<bcp47>.json` — copy `_keys.json` as a starting point
+1. Copy [`_keys.json`](https://raw.githubusercontent.com/MacroPhase/Languages/main/_keys.json) to `<bcp47>.json`
+2. Translate values (not keys). Keep placeholders (`%1$s`, `%1$d`, `%1$.1f`) as-is
 3. Add your language to `_manifest.json`
-4. Open a PR
+4. Open a PR on [github.com/MacroPhase/Languages](https://github.com/MacroPhase/Languages)
 
-That's it. The app picks up new languages automatically.
+Easiest way: paste the JSON into an AI — *"Translate these fitness app strings to [language], keep placeholders, return valid JSON."* Review, fix anything that sounds off, PR.
 
-## Improving a language
+## Quick start — Update existing language
 
-Edit the `.json` file, commit, PR. Even fixing one typo helps.
+Open the file on GitHub, edit in-browser, commit.
+
+**App-assisted:** Settings → Language → tap your language → **Copy missing keys** copies only the untranslated keys. Paste into AI, translate, append to the file, commit.
+
+**In-app:** Settings → Language → long-press your language → translate key by key. Copy the translated keys using the copy button, append to file, commit.
 
 ## File format
 
-One flat JSON object. Keys must match `_keys.json` exactly.
+Flat JSON. Keys must match `_keys.json` exactly.
 
 ```json
 {
   "common_cancel": "Cancelar",
-  "common_save": "Salvar",
-  "ai_welcome_title": "No que podemos focar?"
+  "common_save": "Salvar"
 }
 ```
 
-### Rules
-
-- **Keys**: copy from `_keys.json`, don't rename them
-- **Placeholders**: keep exactly as-is (`%1$s`, `%1$d`, `%1$.1f`) — the app uses these for formatted strings
-- **Missing keys**: just leave them out — the app falls back to English automatically
-- **File name**: must match the `tag` field in `_manifest.json`
+| Rule | Why |
+|---|---|
+| Don't rename keys | The app looks up by key name |
+| Don't touch placeholders | `%1$s` must stay `%1$s` — not `%s`, not `{0}` |
+| Don't translate emoji | Emoji are baked into the values |
+| Missing keys = English fallback | Leave them out, no breakage |
 
 ## _manifest.json
-
-Every language needs an entry:
 
 ```json
 {"tag": "pt-BR", "nativeName": "Português (Brasil)", "englishName": "Portuguese (Brazil)"}
 ```
 
-| Field | What it does |
+| Field | What it is |
 |---|---|
-| `tag` | BCP-47 language tag. Must match the file name. |
-| `nativeName` | Shown to the user in their own language |
-| `englishName` | Shown in the picker as a subtitle |
-
-## Translation tips
-
-- Use any AI to generate a first draft, then review it yourself
-- Locals always beat machine translation
-- Keep the tone natural — this is a fitness coach app, not a legal document
-- Don't translate emoji — they're baked into the values
-- Don't change the placeholders — `%1$s` must stay `%1$s`, not `%s` or `{0}`
-
-## _keys.json
-
-This is the English source of truth. Every translatable string in the app lives here. If a key isn't in this file, it doesn't exist. If a key is in this file but not in your language pack, the app shows the English version.
-If a new update is made, please wait for the developer to update the keys.json. After that, if you want to update your language to the new keys, you can use the app's "Copy missing keys" to get the ones needed, translate them, and open a PR as described.
+| `tag` | BCP-47 tag, must match filename |
+| `nativeName` | Shown in the language picker |
+| `englishName` | Subtitle in the picker |
