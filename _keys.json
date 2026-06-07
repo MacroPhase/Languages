@@ -350,6 +350,8 @@
   "logfood_plate_items_fmt": "%1$d items · %2$d Cal",
   "logfood_clear_plate": "Clear Plate",
   "logfood_log_all_fmt": "Log All (%1$d Cal)",
+  "logfood_plate_cal_fmt": "%1$d Cal",
+  "logfood_plate_macros_fmt": "%1$dP · %2$dF · %3$dC",
   "logfood_logged_count_fmt": "✓ Logged %1$d items",
   "logfood_logged_name_fmt": "✓ Logged %1$s",
   "logfood_added_to_plate_fmt": "✓ Added %1$sg of %2$s to plate",
