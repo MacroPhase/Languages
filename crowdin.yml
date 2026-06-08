@@ -1,7 +1,6 @@
-project_id: "904311"
-base_path: "."
-preserve_hierarchy: false
-
+project_id: '904311'
+base_path: .
+preserve_hierarchy: 
 files:
   - source: /keys-crowdin.json
     translation: /%locale%.json
