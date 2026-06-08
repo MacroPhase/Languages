@@ -1,0 +1,7 @@
+project_id: "904311" 
+base_path: "."
+preserve_hierarchy: false
+
+files:
+  - source: /_keys.json
+    translation: /%android_code%.json
