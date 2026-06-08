@@ -3,5 +3,5 @@ base_path: "."
 preserve_hierarchy: false
 
 files:
-  - source: /.keys-clean.json
+  - source: /keys-crowdin.json
     translation: /%android_code%.json
