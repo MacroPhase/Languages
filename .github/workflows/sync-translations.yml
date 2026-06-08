@@ -1,0 +1,42 @@
+name: Sync Translation Placeholders
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '_keys.json'
+      - '_manifest.json'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-keys:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Run Sync Script
+      run: python .github/scripts/sync_translations.py
+
+    - name: Commit and Push Missing Placeholders
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        git add *.json
+        
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "ci: sync new english placeholders to target locales [skip ci]"
+          git push
+        else
+          echo "All translation files are already fully synced with _keys.json."
+        fi
