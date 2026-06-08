@@ -1,7 +1,7 @@
-project_id: "904311" 
+project_id: "904311"
 base_path: "."
 preserve_hierarchy: false
 
 files:
   - source: /keys-crowdin.json
-    translation: /%android_code%.json
+    translation: /%locale%.json
