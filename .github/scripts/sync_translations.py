@@ -12,7 +12,6 @@ def json_with_comments_to_dict(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
     # Remove single-line comments (// ...) but preserve strings containing URLs
-    # This handles comments safely without breaking lines that have "https://"
     clean_content = re.sub(r'^(?:[^"\n]|"(?:[^"\\]|\\.)*")*?(//.*)$', '', content, flags=re.MULTILINE)
     return json.loads(clean_content)
 
@@ -21,7 +20,7 @@ def sync_translations():
         print("Missing _manifest.json or _keys.json in the root directory.")
         sys.exit(1)
 
-    # Load source of truth
+    # Load master English source of truth
     try:
         source_keys = json_with_comments_to_dict(KEYS_FILE)
     except Exception as e:
@@ -36,12 +35,14 @@ def sync_translations():
 
     for lang in languages:
         tag = lang.get("tag")
-        if tag == "en": 
-            continue # Skip English source file comparison if it exists as en.json
+        
+        # 'en' maps directly to the master _keys.json file, so we skip it 
+        # to avoid appending English strings into the master English file.
+        if tag == "en":
+            continue
             
         filename = f"{tag}.json"
         
-        # If the file doesn't exist yet, we initialize it empty
         if not os.path.exists(filename):
             print(f"File {filename} missing. Creating new language file.")
             target_data = {}
@@ -55,19 +56,17 @@ def sync_translations():
 
         updated = False
         
-        # Check every key in source_keys
+        # Compare keys and append missing ones to the bottom
         for key, value in source_keys.items():
             if key not in target_data:
                 target_data[key] = value  # Append the English string as fallback
                 print(f"[{filename}] Added missing placeholder for key: {key}")
                 updated = True
 
-        # Write back to file if changes were made
+        # Write back out if changes were made
         if updated:
             with open(filename, 'w', encoding='utf-8') as f:
-                # keeps formatting clean, avoids escaping non-ASCII (for cyrillic, accents, etc.)
                 json.dump(target_data, f, indent=2, ensure_ascii=False)
-                # Add a trailing newline to keep git diffs happy
                 f.write("\n")
 
 if __name__ == "__main__":
