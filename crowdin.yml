@@ -1,6 +1,13 @@
-project_id: '904311'
-base_path: .
-preserve_hierarchy: 
+project_id: "904311"
+base_path: "."
+preserve_hierarchy: false
+
+language_mapping:
+  two_letters_code:
+    pt-BR: "pt-BR"
+    zh-CN: "zh-Hans"
+    fr: "fr-FR"
+
 files:
   - source: /keys-crowdin.json
-    translation: /%locale%.json
+    translation: /%two_letters_code%.json
