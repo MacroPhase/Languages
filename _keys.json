@@ -1046,6 +1046,7 @@
   "profilesettings_no_data_in_macrofactor": "No data found in the MacroFactor export",
   "profilesettings_export_macrophase_data": "Export MacroPhase Data",
   "profilesettings_configuration": "Configuration",
+  "profilesettings_error_fmt": "Error: %1$s",
 
   // --- Strategy Monitor ---
   "strategymonitor_title": "Strategy",
@@ -1093,7 +1094,20 @@
   "updatestrategy_low_fat_warning": "Low fat intake may affect hormonal health. Consider keeping fat at 20%%+ of total energy.",
   "updatestrategy_very_low_fat_warning": "Very low fat intake. Hormonal health and vitamin absorption may be compromised. Consider keeping fat at 20%%+ of total energy.",
   "updatestrategy_macro_help": "Setting protein locks its value. Carbs absorb the remainder, and fat meets a recommended minimum of 20%%.",
+  "updatestrategy_target_kcal_day_fmt": "%1$d kcal/day",
 
   // --- App Settings ---
-  "appsettings_configuration": "Configuration"
+  "appsettings_configuration": "Configuration",
+
+  // --- Profile Coaching Preferences ---
+  "profilesettings_coaching_preferences": "Coaching Preferences",
+  "profilesettings_dietary_style": "Dietary Style",
+  "profilesettings_allergies": "Allergies",
+  "profilesettings_food_dislikes": "Food Dislikes",
+  "profilesettings_meal_schedule": "Meal Schedule",
+  "profilesettings_cooking_skill": "Cooking Skill",
+  "profilesettings_training_frequency": "Training Frequency",
+  "profilesettings_calorie_target_flexibility": "Calorie Target Flexibility",
+  "profilesettings_dietary_restrictions": "Dietary Restrictions",
+  "profilesettings_budget_preference": "Budget Preference"
 }
