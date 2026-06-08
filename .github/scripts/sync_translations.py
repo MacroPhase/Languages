@@ -4,7 +4,7 @@ import re
 import sys
 
 KEYS_FILE = "_keys.json"
-CROWDIN_SOURCE_FILE = ".keys-clean.json"
+CROWDIN_SOURCE_FILE = "keys-crowdin.json"
 
 def clean_keys_for_crowdin():
     if not os.path.exists(KEYS_FILE):
