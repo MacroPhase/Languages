@@ -6,7 +6,7 @@
     { "tag": "pt-BR", "nativeName": "Português (Brasil)", "englishName": "Portuguese (Brazil)" },
     { "tag": "ru", "nativeName": "Русский", "englishName": "Russian" },
     { "tag": "de", "nativeName": "Deutsch", "englishName": "German" },
-    { "tag": "es", "nativeName": "Español", "englishName": "Spanish" },
+    { "tag": "es-MX", "nativeName": "Español (México)", "englishName": "Spanish (Mexico)" },
     { "tag": "it", "nativeName": "Italiano", "englishName": "Italian" },
     { "tag": "pl", "nativeName": "Polski", "englishName": "Polish" },
     { "tag": "tr", "nativeName": "Türkçe", "englishName": "Turkish" },
